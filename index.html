@@ -109,7 +109,7 @@
     <section id="contact" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Contact</h2>
-            <form id="contact-form" action="https://formspree.io/f/xrbbolzo" method="POST">
+            <form id="contact-form" action="https://formspree.io/f/xrbbolzo" method="POST" onsubmit="return validateContactForm()">
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="name">Name</label>
@@ -117,7 +117,11 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number">
                     </div>
                 </div>
                 <div class="form-row">
@@ -129,7 +133,7 @@
                 <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
             </form>
         </div>
-    </section>
+    </section>    
 
     <!-- Footer Section -->
     <footer class="footer text-center">
@@ -165,6 +169,18 @@
                 openPopup(image, description);
             });
         });
+
+        function validateContactForm() {
+        // Check if either email or phone is provided
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+
+        if (!email && !phone) {
+            alert("Please provide at least one contact method: Email or Phone.");
+            return false; // Prevent form submission
+        }
+        return true; // Allow form submission
+    }
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
