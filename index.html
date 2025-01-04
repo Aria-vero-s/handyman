@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Love</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ben Love</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-center">
+        <div class="container text-center tagline">
+            <h1 class="display-4">Transform Your Space</h1>
+            <p class="lead">Professional renovation services for houses and houseboats. Quality work, on time and on budget.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get a Free Estimate</a>
+        </div>
+    </header>    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Project Gallery</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image1.jpg" alt="Renovation 1" class="card-img-top" data-description="Renovation of a kitchen with modern fixtures." />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image2.jpg" alt="Renovation 2" class="card-img-top" data-description="Complete bathroom renovation with a luxury shower." />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="image3.jpg" alt="Renovation 3" class="card-img-top" data-description="Living room transformation with stylish furniture." />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup for Image -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <img id="popup-img" src="" alt="" />
+            <p id="popup-description"></p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About</h2>
+            <p class="pb-5">Hi, I’m Ben Love, a freelance handyman with a passion for helping people maintain and improve their homes and houseboats. After spending years in construction and learning the ins and outs of everything from plumbing to electrical work, I decided to bring my skills to the freelance world. I’ve built my business on trust, quality, and the satisfaction of my clients.</p>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-4">
+                    <h3>House Services</h3>
+                    <ul>
+                        <li><strong>Plumbing Repairs</strong>: Leaky pipes, faucet installations, and more.</li>
+                        <li><strong>Electrical Work</strong>: Light fixture installations, wiring, and electrical troubleshooting.</li>
+                        <li><strong>Home Renovations</strong>: Kitchen remodeling, bathroom updates, drywall repairs.</li>
+                        <li><strong>General Maintenance</strong>: Painting, furniture assembly, odd jobs.</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-4">
+                    <h3>Houseboat Services</h3>
+                    <ul>
+                        <li><strong>Marine Plumbing & Electrical</strong>: Repairs and upgrades for houseboat systems.</li>
+                        <li><strong>Deck & Exterior Maintenance</strong>: Waterproofing, painting, and cleaning.</li>
+                        <li><strong>Custom Installations</strong>: Build and install custom storage, furniture, or systems tailored to small houseboat spaces.</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 BenLove. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        const images = document.querySelectorAll('#gallery img');
+        const popup = document.getElementById('popup');
+        const popupImg = document.getElementById('popup-img');
+        const popupDescription = document.getElementById('popup-description');
+
+        function openPopup(img, description) {
+            popup.style.display = 'flex';
+            popupImg.src = img.src;
+            popupDescription.textContent = description;
+        }
+
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                const description = image.getAttribute('data-description');
+                openPopup(image, description);
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
