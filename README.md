@@ -20,7 +20,6 @@ The website will soon be hosted at [www.benjaminelove.co.uk](http://www.benjamin
 - **About Section**: Introduces Ben and provides background on his work.
 - **Contact Form**: Allows visitors to contact Ben directly through a form powered by [formspree](http://www.formspree.io).
 - **Image Popup**: View project images in a popup with additional descriptions.
-Certainly! Here's a more visually structured version of the project with improved indentation for the project files:
 
 ## Project Structureformspree
 ```plaintext
@@ -41,12 +40,12 @@ HANDYMAN/
 - **HTML5**: For structuring the website content.
 - **CSS3**: For styling the website.
 - **Bootstrap 4**: For responsive design and layout.
-- **JavaScript**: For interactive image popups and functionality.
+- **JavaScript**: For interactive image popups and for displaying an alert if the user doesn't provide at least one contact method (either Email or Phone)
 
 ## Installation
 
 1. Clone the repository to your local machine:  
-   `git clone https://github.com/aria-vero-s/BenLove.git`
+   `git clone https://github.com/aria-vero-s/handyman.git`
 
 2. Open the `index.html` file in your browser to view the website.
 
