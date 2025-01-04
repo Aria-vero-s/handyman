@@ -5,9 +5,9 @@ This is a simple, responsive website for Ben Love, a freelance handyman offering
 
 ### Live Version
 
-The live version of the website will soon be available at: [www.benjaminelove.co.uk](http://www.benjaminelove.co.uk)
+The live version of the website is currently available at: [https://aria-vero-s.github.io/handyman/](https://aria-vero-s.github.io/handyman/). 
 
-hosted through https://orders.names.co.uk.
+The website will soon be hosted at [www.benjaminelove.co.uk](http://www.benjaminelove.co.uk), which will be managed through [www.names.co.uk](https://www.names.co.uk) and served via GitHub Pages.
 
 ## Features
 
