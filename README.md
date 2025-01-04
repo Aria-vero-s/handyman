@@ -18,11 +18,11 @@ The website will soon be hosted at [www.benjaminelove.co.uk](http://www.benjamin
 - **Project Gallery**: Displays images of completed projects with descriptions.
 - **Services Section**: Lists services offered for homes and houseboats.
 - **About Section**: Introduces Ben and provides background on his work.
-- **Contact Form**: Allows visitors to contact Ben directly through a form powered by [formspree](http://www.formspree.com).
+- **Contact Form**: Allows visitors to contact Ben directly through a form powered by [formspree](http://www.formspree.io).
 - **Image Popup**: View project images in a popup with additional descriptions.
 Certainly! Here's a more visually structured version of the project with improved indentation for the project files:
 
-## Project Structure
+## Project Structureformspree
 ```plaintext
 HANDYMAN/
 ├── index.html           # Main HTML file
@@ -56,11 +56,11 @@ HANDYMAN/
 - **Gallery**: A section to showcase completed projects with clickable images. When an image is clicked, a popup shows more details about the project.
 - **Services**: Displays a list of services Ben offers for both houses and houseboats.
 - **About**: A brief introduction to Ben and his experience in the handyman field.
-- **Contact**: A contact form powered by [formspree](http://www.formspree.com) that visitors can use to reach out to Ben.
+- **Contact**: A contact form powered by [formspree](http://www.formspree.io) that visitors can use to reach out to Ben.
 
 ## Contact Form (with Formspree)
 
-This project includes a contact form that integrates with [formspree](http://www.formspree.com) to send form submissions directly to your email.
+This project includes a contact form that integrates with [formspree](http://www.formspree.io) to send form submissions directly to your email.
 
 ### How to Set Up the Form
 
