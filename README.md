@@ -2,6 +2,12 @@
 
 This is a simple, responsive website for Ben Love, a freelance handyman offering services for both houses and houseboats. The website includes sections for home services, houseboat services, project gallery, about information, and a contact form.
 
+### Live Version
+
+The live version of the website will soon be available at: [www.benjaminelove.co.uk](http://www.benjaminelove.co.uk)
+
+hosted through https://orders.names.co.uk.
+
 ## Features
 
 - **Navigation Bar**: Links to different sections (Home, Services, About, Contact)
