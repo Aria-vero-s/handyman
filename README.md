@@ -93,6 +93,21 @@ Now your contact form will be ready to receive messages and send them to your de
 - Ensure the images used in the gallery (`image1.jpg`, `image2.jpg`, and `image3.jpg`) are correctly linked in the HTML and located in the same directory as this README file.
 - The popup feature allows users to click on images and view descriptions, enhancing the experience of browsing the project gallery.
 
+## Image Credits
+
+This project uses images from Unsplash. Please credit the photographers as follows:
+
+- **Photographer**: [Cottonbro](https://unsplash.com/@cottonbro) **Image link**: [Unsplash](https://unsplash.com/photos/PxlKOcj0a3Q) (Hero image)
+
+- **Photographer**: [Min An](https://unsplash.com/@minan) **Image link**: [Unsplash](https://unsplash.com/photos/xtFMDRhU8Lo)
+
+- **Photographer**: [JÉSHOOTS](https://unsplash.com/@jshoots) **Image link**: [Unsplash](https://unsplash.com/photos/48mTwDzizqE)
+
+- **Photographer**: [Bec Wilcock](https://unsplash.com/@becwilcock) **Image link**: [Unsplash](https://unsplash.com/photos/xC3cHbp4XJE)
+
+These images are licensed under the [Unsplash License](https://unsplash.com/license).
+
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
