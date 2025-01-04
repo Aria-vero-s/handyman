@@ -18,20 +18,21 @@ The website will soon be hosted at [www.benjaminelove.co.uk](http://www.benjamin
 - **Project Gallery**: Displays images of completed projects with descriptions.
 - **Services Section**: Lists services offered for homes and houseboats.
 - **About Section**: Introduces Ben and provides background on his work.
-- **Contact Form**: Allows visitors to contact Ben directly through a form.
+- **Contact Form**: Allows visitors to contact Ben directly through a form powered by [formspree](http://www.formspree.com).
 - **Image Popup**: View project images in a popup with additional descriptions.
 Certainly! Here's a more visually structured version of the project with improved indentation for the project files:
 
 ## Project Structure
-
 ```plaintext
-BenLove/
+HANDYMAN/
 ├── index.html           # Main HTML file
-├── styles.css           # Custom styles for the website
-├── images/              # Folder containing project images
-│   ├── image1.jpg       # Project image 1
-│   ├── image2.jpg       # Project image 2
-│   └── image3.jpg       # Project image 3
+├── styles.css           # Custom styles
+├── image1.jpg           # Hero image
+├── image1.jpg           # Project image 1
+├── image2.jpg           # Project image 2
+├── image3.jpg           # Project image 3
+├── mockup.png           # Mockup image
+├── LICENSE              # License
 └── README.md            # This readme file
 ```
 
@@ -55,11 +56,11 @@ BenLove/
 - **Gallery**: A section to showcase completed projects with clickable images. When an image is clicked, a popup shows more details about the project.
 - **Services**: Displays a list of services Ben offers for both houses and houseboats.
 - **About**: A brief introduction to Ben and his experience in the handyman field.
-- **Contact**: A contact form that visitors can use to reach out to Ben.
+- **Contact**: A contact form powered by [formspree](http://www.formspree.com) that visitors can use to reach out to Ben.
 
 ## Contact Form (with Formspree)
 
-This project includes a contact form that integrates with Formspree to send form submissions directly to your email.
+This project includes a contact form that integrates with [formspree](http://www.formspree.com) to send form submissions directly to your email.
 
 ### How to Set Up the Form
 
@@ -79,7 +80,7 @@ This project includes a contact form that integrates with Formspree to send form
 ## Additional Notes
 
 - Make sure each form input has a `name` attribute to ensure data is correctly sent to Formspree.
-- The form will submit using the POST method.
+- The form will submit using theBenLove POST method.
 
 Now your contact form will be ready to receive messages and send them to your designated email!
 
