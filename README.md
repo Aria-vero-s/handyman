@@ -66,7 +66,7 @@ This project includes a contact form that integrates with [formspree](http://www
 
 1. Make sure to replace the Formspree action URL in the HTML form:
     ```html
-    <form id="contact-form" action="https://formspree.io/f/mkxpiz" method="POST">
+    <form id="contact-form" action="https://formspree.io/f/xrbbolzo" method="POST">
     ```
     with:
     ```html
