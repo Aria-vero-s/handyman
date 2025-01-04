@@ -1,6 +1,8 @@
 # Ben Love
 ### Handyman Freelance Website
 
+![Website Mockup](mockup.png)
+
 This is a simple, responsive website for Ben Love, a freelance handyman offering services for both houses and houseboats. The website includes sections for home services, houseboat services, project gallery, about information, and a contact form.
 
 ### Live Version
