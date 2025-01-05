@@ -5,9 +5,11 @@
 
 This is a simple, responsive website for Ben Love, a freelance handyman offering services for both houses and houseboats. The website includes sections for home services, houseboat services, project gallery, about information, and a contact form.
 
+The Figma template for this project can be found here: [www.figma.com/community/file](https://www.figma.com/community/file/1457802289525249318/handyman-template)
+
 ### Live Version
 
-The live version of the website is currently available at: [https://aria-vero-s.github.io/handyman/](https://aria-vero-s.github.io/handyman/). 
+The live version of the website is currently available at: [https://aria-vero-s.github.io/handyman/](https://aria-vero-s.github.io/handyman/).
 
 The website will soon be hosted at [www.benjaminelove.co.uk](http://www.benjaminelove.co.uk), which will be managed through [www.names.co.uk](https://www.names.co.uk) and served via GitHub Pages.
 
